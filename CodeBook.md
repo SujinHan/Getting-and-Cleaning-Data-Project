@@ -56,4 +56,9 @@ Use gsub function for pattern replacement to clean up the data labels.
 
 ## Part 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Per the project instructions, we need to produce only a data set with the average of each veriable for each activity and subject
+From the intermediate data set is created a final tidy data set where numeric variables are averaged for each activity and each subject.
+
+The tidy data set contains 10299 observations with 81 variables divided in:
+•an activity label (Activity): WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+•a 79-feature vector with time and frequency domain signal variables (numeric)
+
