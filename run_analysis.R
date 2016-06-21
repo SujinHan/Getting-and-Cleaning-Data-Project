@@ -57,5 +57,5 @@ colnames(finalData) = colNames
 finalDataNoActivityType = finalData[,names(finalData) != 'activity_labels']
 tidyData    = aggregate(finalDataNoActivityType[,names(finalDataNoActivityType) != c('activityId','subjectId')],by=list(activityId=finalDataNoActivityType$activityId,subjectId = finalDataNoActivityType$subjectId),mean)
 tidyData    = merge(tidyData,activityType,by='activityId',all.x=TRUE)
-write.table(tidyData, './tidyData.txt',row.names=TRUE,sep='\t')
+write.table(tidyData, './tidyData.txt',row.names=FALSE,sep='\t')
 
