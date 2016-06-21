@@ -60,5 +60,6 @@ From the intermediate data set is created a final tidy data set where numeric va
 
 The tidy data set contains 10299 observations with 81 variables divided in:
 •an activity label (Activity): WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+
 •a 79-feature vector with time and frequency domain signal variables (numeric)
 
