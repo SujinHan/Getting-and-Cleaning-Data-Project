@@ -63,3 +63,5 @@ The tidy data set contains 10299 observations with 81 variables divided in:
 
 •a 79-feature vector with time and frequency domain signal variables (numeric)
 
+Reference
+<a name="tidy-dataset"/>Tidy data set. URL: https://github.com/jtleek/datasharing#the-tidy-data-set. Accessed 06/21/2016
